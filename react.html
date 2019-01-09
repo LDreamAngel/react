@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 三条必引 -->
+    <script src="https://cdn.bootcss.com/react/16.7.0-alpha.2/umd/react.development.js"></script>
+    <script src="https://cdn.bootcss.com/react-dom/16.7.0-alpha.1/umd/react-dom.development.js"></script>
+    <!-- 转化react的语法 -->
+    <script src="https://cdn.bootcss.com/babel-standalone/7.0.0-beta.3/babel.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+
+</body>
+
+<!-- 语法声明：type="text/babel" -->
+<script type="text/babel">
+     //JSX语法
+    // ReactDOM：中的DOM只能为大写
+    ReactDOM.render(
+        <h1>React入门儿</h1>,//不是字符串
+        document.getElementById("app")
+    )
+</script>
+</html>
