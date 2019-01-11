@@ -18,7 +18,7 @@ export default class Header extends Component {
                 {this.props.obj.hobbies.map((hobby,i)=><li key={i}>{hobby}</li>)}
               </ul>
               {/* 接收父组件传过来的子节点 */}
-              <p>{this.props.children}</p>
+              <div>{this.props.children}</div>
             </div>
          </div>
       </div>
